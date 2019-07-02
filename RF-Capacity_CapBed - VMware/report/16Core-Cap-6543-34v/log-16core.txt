@@ -1,0 +1,273 @@
+command: pybot.bat -d E:\log --argumentfile c:\users\sonicw~1\appdata\local\temp\RIDElk97g_.d\argfile.txt --listener C:\Python27\lib\site-packages\robotide\contrib\testrunner\TestRunnerAgent.py:56899:False "E:\RF-Capacity_CapBed - VMware\CapBed-CapacityCase"
+=================================================================================================================
+CapBed-CapacityCase                                                                                              
+=================================================================================================================
+CapBed-CapacityCase.16Core Capacity                                                                              
+=================================================================================================================
+config firewall                                                                                          Finish firewall config!
+temp=; SessId=6FE266D42CC792BD04E38690B2EF3384
+Finished enabled TLS!
+Finish enable TLS! Rebooting service!
+| PASS |
+-----------------------------------------------------------------------------------------------------------------
+Export orig conf and tsr                                                                                 Export tsr successfully!
+Export EXP and TSR files successfully!
+| PASS |
+-----------------------------------------------------------------------------------------------------------------
+Get TSR Excel                                                                                            Get TSR successfully!
+| PASS |
+-----------------------------------------------------------------------------------------------------------------
+Capacity_test_Init                                                                                       Start User Group test!
+Target value:8192
+Start to run script!
+Passed! Actual value:8,201=max_value:8201!
+Deleted all successfully! value_remain:8,201==default_value:9
+Finished User Group test!
+Start ARP test!
+Target value:300
+Start to run script!
+Added to 300 successfully!
+Ping gateway successfully after no items!
+Finished ARP test!
+Start schedule objects test!
+Start to run script!
+Passed! max_value:3200=current_value:3200
+Ping gateway successfully after no items!
+delete all objects successfully!!default value=16
+Finished schedule objects test!
+Start 4 application test!
+Target: max_app-p=500;max_app-o=500;max_app-a=500;max_app-e=500
+Running successfully!
+Running successfully!
+Running successfully!
+Running successfully!
+actual app policies=500
+"Delete all" app policies successfully!
+actual app objects=500
+"Delete all" app objects successfully!
+actual app action=512
+Delete all! remain=12
+"Delete all" app action successfully!
+actual app email objects=500
+"Delete all" email address objects successfully!
+Application Firewall Policies passed! Actual value:500=Target value:500!
+Application Firewall APP Objects passed! Actual value:500=Target value:500!
+Application Firewall Actions need to confirm!!Actual value:512>Target value:500!
+Application Firewall Email User Objects passed! Actual value:500=Target value:500!
+Start static route test!
+Target: max_static-route=3072;max_static-route-fqdn=3072
+Running successfully!
+Delete all! IPv4 route remain=6
+"Delete all" routes successfully!
+actual static-route=3072   IPv4 route=3070;IPv6 route=2
+Ping gateway successfully after no items!
+Finished static route test! actual_static-route=3072
+Running successfully!
+Delete all! IPv4 route remain=6
+"Delete all" routes successfully!
+actual static-route=3072   IPv4 route=3070;IPv6 route=2
+Failed ping after no items! Can't ping gateway 10.7.3.254 successfully!
+Finished static route FQDN test! actual_static-route FQDN=3072
+Static Routes passed! Actual value:3072=Target value:3072!
+Static Routes for FQDN passed! Actual value:3072=Target value:3072!
+Finished route test!
+Start botnet-filter test!
+Target: Botnet Filters=512
+Ping gateway successfully after no items!
+Start to run script!
+Delete all! botnet filter remain=0
+"Delete all" botnet filter ssuccessfully!
+actual botnet-filter=512
+Ping gateway successfully after no items!
+Botnet Filters passed! Actual value:512=Target value:512!
+Finished botnet filter test!
+Start geo-ip-filter test!
+Target: Gep Ip Filters=512
+Ping gateway successfully after no items!
+Start to run script!
+Delete all! geo ip filter remain=512
+Failed to "Delete all" geo-ip-filter!
+actual geo-ip-filter=512
+Ping gateway successfully after no items!
+GeoIP Filters passed! Actual value:512=Target value:512!
+Finished geo ip test!
+Start Local User test!
+Target: local user=4000
+Start to run script!
+Delete all! local user remain=4,000
+"Delete all" local user ssuccessfully!
+actual local user=4000
+Local Users passed! Actual value:4000=Target value:4000!
+Finished local user test!
+Start guest user test!
+Target: Guest User=10000
+Added to 10000 successfully!
+Failed to delete 10000!
+Finished guest user test!
+Start service objects test!
+default:274    target:2101
+Start to run script!
+Passed! max_value:2101=current_value:2101
+Ping gateway successfully after no items!
+delete all objects successfully!!
+Finished service objects test!
+Start service group depth test!
+Target service group depth:100
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 300  Service Group Depth successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Service Group Depth need to confirm!!Actual value:300>Target value:100!
+Finished service group depth test!
+Start service per group test!
+Target service per group:100
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 100  Service Group Depth successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Service Group Depth passed! Actual value:100=Target value:100!
+Finished service per group test!
+Start service group test!
+Target service group:100
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 300  Service Groups successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Service Groups need to confirm!!Actual value:300>Target value:100!
+Finished service group test!
+Start address per group test!
+Target address per group:3096
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 3296  AO Per Address Group successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+AO Per Address Group need to confirm!!Actual value:3296>Target value:3096!
+Finished address per group test!
+Start nat-pol test!
+Target: nat policy=2048
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Running successfully!
+Delete all! nat-pol remain=14
+"Delete all" nat-pol successfully!
+actual nat-pol=2048 
+Ping gateway successfully after no items!
+NAT Policies passed! Actual value:2048=Target value:2048!
+Finished nat policies test!
+Start group vpn test!
+Target: Group VPN=50
+Failed ping after no items! Can't ping gateway 10.7.3.254 successfully!
+Start to run script!
+GroupVPN Policies passed! Actual value:50=Target value:50!
+Factory default now! to recover orig conf!
+Finish firewall config!
+temp=; SessId=9539B2BCD96841E20440983CA602CDA7
+Finished enabled TLS!
+Finish enable TLS! Rebooting service!
+Finished Group VPN test!
+Start phase2 test!
+Target phase2:32000   S2S:25000
+Running successfully!
+Running successfully!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+actual phase2=32000
+Failed to "Delete all" site-to-site vpn(phase2)  !
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+VPN Phase 2 SA's passed! Actual value:32000=Target value:32000!
+Finished phase2 test!
+Start phase1 test!
+Target phase1:25000
+titles1:SonicWall - Administration for 00401034F159;titles2:Edit Zone - 'WAN'
+
+[ WARN ] Using 'Get Element Attribute' without explicit attribute is deprecated.
+titles01:SonicWall - Administration for 00401034F159;titles02:VPN Policy
+Ixiaload conf info: Pre Shared Key:E984C13CECB42C90; Peer ID Value:00401034F159
+
+[ WARN ] Using 'Get Element Attribute' without explicit attribute is deprecated.
+Please configure X0 IP as 172.1.1.1  netmask 255.255.0.0 before phase1 test!
+Running successfully!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+Exported Phase1 configuration, please import it to go on your test!
+Factory default now! to recover orig conf!
+Finish firewall config!
+temp=; SessId=47028D00C7FA3FB54310F81A90EFC547
+Finished enabled TLS!
+Finish enable TLS! Rebooting service!
+Start address objects test!
+Ping gateway successfully after no items!
+Start to run script!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+Passed! max_value:152550=current_value:152550
+| FAIL |
+No match found for '#' in 10 seconds
+Output:
+.
+-----------------------------------------------------------------------------------------------------------------
+CapBed-CapacityCase.16Core Capacity                                                                      | FAIL |
+4 critical tests, 3 passed, 1 failed
+4 tests total, 3 passed, 1 failed
+=================================================================================================================
+CapBed-CapacityCase                                                                                      | FAIL |
+4 critical tests, 3 passed, 1 failed
+4 tests total, 3 passed, 1 failed
+=================================================================================================================
+Output:  E:\log\output.xml
+Log:     E:\log\log.html
+Report:  E:\log\report.html
+
+test finished 20190510 20:13:01
+
+
+
+command: pybot.bat -d E:\log --argumentfile c:\users\sonicw~1\appdata\local\temp\RIDElk97g_.d\argfile.txt --listener C:\Python27\lib\site-packages\robotide\contrib\testrunner\TestRunnerAgent.py:56899:False "E:\RF-Capacity_CapBed - VMware\CapBed-CapacityCase"
+===============================================================================================================
+CapBed-CapacityCase                                                                                            
+===============================================================================================================
+CapBed-CapacityCase.16Core Capacity                                                                            
+===============================================================================================================
+Capacity_test_Init                                                                                     Finish firewall config!
+temp=; SessId=009008AD02DD3E7EC45A23F67F1147F0
+Finished enabled TLS!
+Finish enable TLS! Rebooting service!
+Start vlan test!
+Target vlan:128
+Start to run script!
+VLANs passed! Actual value:128=Target value:128!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+Delete 128 vlan successfully!
+Finished Vlan test!
+Start zone test!
+Target zone:518
+Start to run script!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+actual zone=496
+Delete all! zone remain=496
+Failed to "Delete all"  zone!
+Zones failed!!Actual value:496   Target value:518
+Factory default now! to recover orig conf!
+| FAIL |
+timeout: timed out
+---------------------------------------------------------------------------------------------------------------
+CapBed-CapacityCase.16Core Capacity                                                                    | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+===============================================================================================================
+CapBed-CapacityCase                                                                                    | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+===============================================================================================================
+Output:  E:\log\output.xml
+Log:     E:\log\log.html
+Report:  E:\log\report.html
+
+test finished 20190511 10:58:56

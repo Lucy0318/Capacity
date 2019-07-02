@@ -1,0 +1,48 @@
+command: pybot.bat --argumentfile c:\users\sonicw~1\appdata\local\temp\RIDExukgy2.d\argfile.txt --listener C:\Python27\lib\site-packages\robotide\contrib\testrunner\TestRunnerAgent.py:58755:False "E:\RF-Capacity_CapBed - VMware\CapBed-CapacityCase"
+====================================================================================================================
+CapBed-CapacityCase                                                                                                 
+====================================================================================================================
+CapBed-CapacityCase.16Core Capacity                                                                                 
+====================================================================================================================
+Capacity_test_Init                                                                                          Start phase2 test!
+Target phase2:32000   S2S:25000
+Running successfully!
+Running successfully!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+actual phase2=32000
+Failed to "Delete all" site-to-site vpn(phase2)  !
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+VPN Phase 2 SA's passed! Actual value:32000=Target value:32000!
+Finished phase2 test!
+Start phase1 test!
+Target phase1:25000
+titles1:SonicWall - Administration for 00401034F159;titles2:Edit Zone - 'WAN'
+
+[ WARN ] Using 'Get Element Attribute' without explicit attribute is deprecated.
+titles01:SonicWall - Administration for 00401034F159;titles02:VPN Policy
+Ixiaload conf info: Pre Shared Key:4792334B2C875611; Peer ID Value:00401034F159
+
+[ WARN ] Using 'Get Element Attribute' without explicit attribute is deprecated.
+Please configure X0 IP as 172.1.1.1  netmask 255.255.0.0 before phase1 test!
+Running successfully!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+Exported Phase1 configuration, please import it to go on your test!
+Factory default now! to recover orig conf!
+Finish firewall config!
+temp=; SessId=BDDE7063A610151602AA9A72AF725F0D
+Finished enabled TLS!
+Finish enable TLS! Rebooting service!
+Start address objects test!
+Ping gateway successfully after no items!
+Start to run script!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+Passed! max_value:152550=current_value:152550
+| FAIL |
+No match found for '#' in 10 seconds
+Output:
+
+

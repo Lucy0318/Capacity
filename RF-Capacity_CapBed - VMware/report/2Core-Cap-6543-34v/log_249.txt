@@ -1,0 +1,232 @@
+command: pybot.bat --argumentfile c:\users\sonicw~1\appdata\local\temp\RIDEjgmmi1.d\argfile.txt --listener C:\Python27\lib\site-packages\robotide\contrib\testrunner\TestRunnerAgent.py:62110:False "E:\RF-Capacity_CapBed - VMware\CapBed-CapacityCase"
+======================================================================================================================================================================
+CapBed-CapacityCase                                                                                                                                                   
+======================================================================================================================================================================
+CapBed-CapacityCase.2Core Capacity                                                                                                                                    
+======================================================================================================================================================================
+Capacity_test_Init                                                                                                                                            Start User Group test!
+Target value:1024
+Start to run script!
+Passed! Actual value:1,033=max_value:1033!
+Deleted all successfully! value_remain:9==default_value:9
+Finished User Group test!
+Start ARP test!
+Target value:300
+Start to run script!
+Added to 300 successfully!
+Ping gateway successfully after no items!
+Finished ARP test!
+Start schedule objects test!
+Start to run script!
+Passed! max_value:1600=current_value:1600
+Ping gateway successfully after no items!
+delete all objects successfully!!default value=16
+Finished schedule objects test!
+Start 4 application test!
+Target: max_app-p=30;max_app-o=30;max_app-a=30;max_app-e=15
+Running successfully!
+Running successfully!
+Running successfully!
+Running successfully!
+actual app policies=30
+"Delete all" app policies successfully!
+actual app objects=30
+"Delete all" app objects successfully!
+actual app action=42
+Delete all! remain=12
+"Delete all" app action successfully!
+actual app email objects=15
+"Delete all" email address objects successfully!
+Application Firewall Policies passed! Actual value:30=Target value:30!
+Application Firewall APP Objects passed! Actual value:30=Target value:30!
+Application Firewall Actions need to confirm!!Actual value:42>Target value:30!
+Application Firewall Email User Objects passed! Actual value:15=Target value:15!
+Start static route test!
+Target: max_static-route=1088;max_static-route-fqdn=1088
+Running successfully!
+Delete all! IPv4 route remain=6
+"Delete all" routes successfully!
+actual static-route=1088   IPv4 route=1086;IPv6 route=2
+Ping gateway successfully after no items!
+Finished static route test! actual_static-route=1088
+Running successfully!
+Delete all! IPv4 route remain=6
+"Delete all" routes successfully!
+actual static-route=1088   IPv4 route=1086;IPv6 route=2
+Ping gateway successfully after no items!
+Finished static route FQDN test! actual_static-route FQDN=1088
+Static Routes passed! Actual value:1088=Target value:1088!
+Static Routes for FQDN passed! Actual value:1088=Target value:1088!
+Finished route test!
+Start botnet-filter test!
+Target: Botnet Filters=512
+Ping gateway successfully after no items!
+Start to run script!
+Delete all! botnet filter remain=0
+"Delete all" botnet filter ssuccessfully!
+actual botnet-filter=512
+Ping gateway successfully after no items!
+Botnet Filters passed! Actual value:512=Target value:512!
+Finished botnet filter test!
+Start geo-ip-filter test!
+Target: Gep Ip Filters=512
+Ping gateway successfully after no items!
+Start to run script!
+Delete all! geo ip filter remain=512
+Failed to "Delete all" geo-ip-filter!
+actual geo-ip-filter=512
+Ping gateway successfully after no items!
+GeoIP Filters passed! Actual value:512=Target value:512!
+Finished geo ip test!
+Start botnet-filter test!
+Target: Botnet Filters=512
+Ping gateway successfully after no items!
+Start to run script!
+Delete all! botnet filter remain=0
+"Delete all" botnet filter ssuccessfully!
+actual botnet-filter=512
+Ping gateway successfully after no items!
+Botnet Filters passed! Actual value:512=Target value:512!
+Finished botnet filter test!
+Start Local User test!
+Target: local user=250
+Start to run script!
+Delete all! local user remain=0
+"Delete all" local user ssuccessfully!
+actual local user=250
+Local Users passed! Actual value:250=Target value:250!
+Finished local user test!
+Start guest user test!
+Target: Guest User=1000
+Added to 1000 successfully!
+Deleted 1000 successfully!
+Finished guest user test!
+Start service objects test!
+default:274    target:1351
+Start to run script!
+Passed! max_value:1351=current_value:1351
+Ping gateway successfully after no items!
+delete all objects successfully!!
+Finished service objects test!
+Start service group depth test!
+Target service group depth:100
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 300  Service Group Depth successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Service Group Depth need to confirm!!Actual value:300>Target value:100!
+Finished service group depth test!
+Start service per group test!
+Target service per group:100
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 100  Service Group Depth successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Service Group Depth passed! Actual value:100=Target value:100!
+Finished service per group test!
+Start service group test!
+Target service group:100
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 300  Service Groups successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Service Groups need to confirm!!Actual value:300>Target value:100!
+Finished service group test!
+Start address per group test!
+Target address per group:1024
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 1224  AO Per Address Group successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+AO Per Address Group need to confirm!!Actual value:1224>Target value:1024!
+Finished address per group test!
+Start address group test!
+Target address group:2433
+Start to run script!
+actual address group=1471
+| FAIL |
+Keyword 'SSHLibrary.Switch Connection' expected 1 argument, got 3.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CapBed-CapacityCase.2Core Capacity                                                                                                                            | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+======================================================================================================================================================================
+CapBed-CapacityCase                                                                                                                                           | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+======================================================================================================================================================================
+Output:  c:\users\sonicw~1\appdata\local\temp\RIDEjgmmi1.d\output.xml
+Log:     c:\users\sonicw~1\appdata\local\temp\RIDEjgmmi1.d\log.html
+Report:  c:\users\sonicw~1\appdata\local\temp\RIDEjgmmi1.d\report.html
+
+test finished 20190508 16:35:15
+
+
+
+
+
+
+
+command: pybot.bat -d E:\log --argumentfile c:\users\sonicw~1\appdata\local\temp\RIDEjgmmi1.d\argfile.txt --listener C:\Python27\lib\site-packages\robotide\contrib\testrunner\TestRunnerAgent.py:62110:False "E:\RF-Capacity_CapBed - VMware\CapBed-CapacityCase"
+======================================================================================================================================================================
+CapBed-CapacityCase                                                                                                                                                   
+======================================================================================================================================================================
+CapBed-CapacityCase.2Core Capacity                                                                                                                                    
+======================================================================================================================================================================
+Capacity_test_Init                                                                                                                                            Finish firewall config!
+temp=; SessId=129670BE98DA666922A1BEF170DB8DC1
+Finished enabled TLS!
+Finish enable TLS! Rebooting service!
+Start zone test!
+Target zone:32
+Start to run script!
+actual zone=32
+Delete all! zone remain=6
+"Delete all" zone ssuccessfully!
+Zones passed! Actual value:32=Target value:32!
+Factory default now! to recover orig conf!
+Finish firewall config!
+temp=; SessId=199EEE869C718EE5F5EBA1D52FAFC641
+Finished enabled TLS!
+Finish enable TLS! Rebooting service!
+Finished zone test!
+Start vlan test!
+Target vlan:128
+Start to run script!
+VLANs passed! Actual value:128=Target value:128!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+Delete 128 vlan successfully!
+Finished Vlan test!
+Start phase2 test!
+Target phase2:1500   S2S:75
+Running successfully!
+Running successfully!
+actual phase2=1500
+Failed to "Delete all" site-to-site vpn(phase2)  !
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+VPN Phase 2 SA's passed! Actual value:1500=Target value:1500!
+Finished phase2 test!
+Start tunnel interface test!
+Target tunnel interface:192
+| FAIL |
+Evaluating expression '75' failed: TypeError: Expression must be string, got integer.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CapBed-CapacityCase.2Core Capacity                                                                                                                            | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+======================================================================================================================================================================
+CapBed-CapacityCase                                                                                                                                           | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+======================================================================================================================================================================
+Output:  E:\log\output.xml
+Log:     E:\log\log.html
+Report:  E:\log\report.html
+
+test finished 20190509 12:41:12

@@ -1,0 +1,284 @@
+command: pybot.bat -d E:\log --argumentfile c:\users\sonicw~1\appdata\local\temp\RIDEoe3oyb.d\argfile.txt --listener C:\Python27\lib\site-packages\robotide\contrib\testrunner\TestRunnerAgent.py:57765:False "E:\RF-Capacity_CapBed - VMware\CapBed-CapacityCase"
+=================================================================================================================
+CapBed-CapacityCase                                                                                              
+=================================================================================================================
+CapBed-CapacityCase.3Core Capacity                                                                               
+=================================================================================================================
+Capacity_test_Init                                                                                       Finish firewall config!
+temp=; SessId=BB7FC7CBFF4CC40809D04595A4F3D93E
+Finished enabled TLS!
+Finish enable TLS! Rebooting service!
+Start static route test!
+Target: max_static-route=1088;max_static-route-fqdn=1088
+Running successfully!
+Delete all! IPv4 route remain=6
+"Delete all" routes successfully!
+actual static-route=1088   IPv4 route=1086;IPv6 route=2
+Ping gateway successfully after no items!
+Finished static route test! actual_static-route=1088
+Running successfully!
+Delete all! IPv4 route remain=6
+"Delete all" routes successfully!
+actual static-route=1088   IPv4 route=1086;IPv6 route=2
+Ping gateway successfully after no items!
+Finished static route FQDN test! actual_static-route FQDN=1088
+Static Routes passed! Actual value:1088=Target value:1088!
+Static Routes for FQDN passed! Actual value:1088=Target value:1088!
+Finished route test!
+Start botnet-filter test!
+Target: Botnet Filters=512
+Ping gateway successfully after no items!
+Start to run script!
+Delete all! botnet filter remain=0
+"Delete all" botnet filter ssuccessfully!
+actual botnet-filter=512
+Ping gateway successfully after no items!
+Botnet Filters passed! Actual value:512=Target value:512!
+Finished botnet filter test!
+Start geo-ip-filter test!
+Target: Gep Ip Filters=512
+Ping gateway successfully after no items!
+Start to run script!
+Delete all! geo ip filter remain=512
+Failed to "Delete all" geo-ip-filter!
+actual geo-ip-filter=512
+Ping gateway successfully after no items!
+GeoIP Filters passed! Actual value:512=Target value:512!
+Finished geo ip test!
+Start botnet-filter test!
+Target: Botnet Filters=512
+Ping gateway successfully after no items!
+Start to run script!
+Delete all! botnet filter remain=0
+"Delete all" botnet filter ssuccessfully!
+actual botnet-filter=512
+Ping gateway successfully after no items!
+Botnet Filters passed! Actual value:512=Target value:512!
+Finished botnet filter test!
+Start Local User test!
+Target: local user=500
+Start to run script!
+Delete all! local user remain=0
+"Delete all" local user ssuccessfully!
+actual local user=500
+Local Users passed! Actual value:500=Target value:500!
+Finished local user test!
+Start guest user test!
+Target: Guest User=1000
+Added to 1000 successfully!
+Deleted 1000 successfully!
+Finished guest user test!
+Start service objects test!
+default:274    target:1351
+Start to run script!
+Passed! max_value:1351=current_value:1351
+Ping gateway successfully after no items!
+delete all objects successfully!!
+Finished service objects test!
+Start service group depth test!
+Target service group depth:100
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 300  Service Group Depth successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Service Group Depth need to confirm!!Actual value:300>Target value:100!
+Finished service group depth test!
+Start service per group test!
+Target service per group:100
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 100  Service Group Depth successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Service Group Depth passed! Actual value:100=Target value:100!
+Finished service per group test!
+Start service group test!
+Target service group:100
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 300  Service Groups successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Service Groups need to confirm!!Actual value:300>Target value:100!
+Finished service group test!
+Start address per group test!
+Target address per group:1024
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+Add 1224  AO Per Address Group successfully!
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+AO Per Address Group need to confirm!!Actual value:1224>Target value:1024!
+Finished address per group test!
+Start address group test!
+Target address group:2712
+Start to run script!
+actual address group=1866
+Delete all! address group remain=1866
+Failed to "Delete all" address group!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+actual address group=1866
+Ping gateway successfully after no items!
+Address Groups failed!!Actual value:1866   Target value:2712
+Finished address group test!
+Start nat-pol test!
+Target: nat policy=1024
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+| FAIL |
+No match found for ']#' in 20 seconds
+Output:
+DEBUG: In logConfUpdate, input log level is invalid, default DEBUG level will be assigned 
+Log::Log4perl configuration looks suspicious: No loggers defined at /usr/lib/perl5/site_perl/5.8.5/Log/Log4perl/Config.pm line 306.
+DEBUG: begin to dumper ....
+$VAR1 = {
+          'objname' => 'nat-pol',
+          'vTable' => {
+                      'handlePost' => sub { "DUMMY" },
+                      'objBundleGen' => sub { "DUMMY" },
+                      'tsrGet' => sub { "DUMMY" },
+                      'handleResultGet' => sub { "DUMMY" },
+                      'tsrHandle' => sub { "DUMMY" },
+                      'fwBundlePost' => sub { "DUMMY" },
+                      'fwPost' => sub { "DUMMY" },
+                      'bundleScriptRun' => sub { "DUMMY" }
+                    },
+          'bscript' => 'nat_pol.pl',
+    [ Message content over the limit has been removed. ]
+		<error>
+			<desc>Creating trandes527: Too many Network Objects</desc>
+		</error>
+		<error>
+			<desc>Duplicate policy exists</desc>
+		</error>
+		<error>
+			<desc>Creating orides528: Too many Network Objects</desc>
+		</error>
+		<error>
+			<desc>Creating trandes528: Too many Network Objects</desc>
+		</error>
+		<error>
+			<desc>Duplicate policy exists</desc>
+		</error>
+		<error>
+			<desc>Creating orides529: Too many Network Objects</desc>
+		</error>
+		<error>
+			<des.
+-----------------------------------------------------------------------------------------------------------------
+CapBed-CapacityCase.3Core Capacity                                                                       | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+=================================================================================================================
+CapBed-CapacityCase                                                                                      | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+=================================================================================================================
+Output:  E:\log\output.xml
+Log:     E:\log\log.html
+Report:  E:\log\report.html
+
+
+command: pybot.bat -d E:\log --argumentfile c:\users\sonicw~1\appdata\local\temp\RIDEoe3oyb.d\argfile.txt --listener C:\Python27\lib\site-packages\robotide\contrib\testrunner\TestRunnerAgent.py:57765:False "E:\RF-Capacity_CapBed - VMware\CapBed-CapacityCase"
+=================================================================================================================
+CapBed-CapacityCase                                                                                              
+=================================================================================================================
+CapBed-CapacityCase.3Core Capacity                                                                               
+=================================================================================================================
+Capacity_test_Init                                                                                       Finish firewall config!
+temp=; SessId=A3728C8E74191568709CD47FE3D5907A
+Finished enabled TLS!
+Finish enable TLS! Rebooting service!
+Start address group test!
+Target address group:2712
+Start to run script!
+actual address group=2978
+Delete all! address group remain=2978
+Failed to "Delete all" address group!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+actual address group=2978
+Ping gateway successfully after no items!
+Address Groups need to confirm!!Actual value:2978>Target value:2712!
+Finished address group test!
+Start site-to-site vpn test!
+Target: Site-to-Site VPN=100
+Start to run script!
+actual site-to-site VPN=100
+remain=0  "Delete all" site-to-site vpn successfully!
+Ping gateway successfully after no items!
+S2S VPN Policies passed! Actual value:100=Target value:100!
+Finished Site-to-Site VPN test!
+Start group vpn test!
+Target: Group VPN=12
+Ping gateway successfully after no items!
+Start to run script!
+GroupVPN Policies passed! Actual value:12=Target value:12!
+Factory default now! to recover orig conf!
+Finish firewall config!
+temp=; SessId=647D9BB1D2022B6D81AFA8137F5D8DB2
+Finished enabled TLS!
+Finish enable TLS! Rebooting service!
+Finished Group VPN test!
+Start address objects test!
+Ping gateway successfully after no items!
+Start to run script!
+Passed! max_value:4184=current_value:4184
+Ping gateway successfully after no items!
+delete all objects successfully!!
+Finished address objects test!
+Start zone test!
+Target zone:56
+Start to run script!
+actual zone=56
+Delete all! zone remain=6
+"Delete all" zone ssuccessfully!
+Zones passed! Actual value:56=Target value:56!
+Factory default now! to recover orig conf!
+Finish firewall config!
+temp=; SessId=B44E83A6B8564669990C8703BF164DD3
+Finished enabled TLS!
+Finish enable TLS! Rebooting service!
+Finished zone test!
+Start vlan test!
+Target vlan:128
+Start to run script!
+VLANs passed! Actual value:128=Target value:128!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+Delete 128 vlan successfully!
+Finished Vlan test!
+Start phase2 test!
+Target phase2:5000   S2S:100
+Running successfully!
+Running successfully!
+Export tsr successfully!
+Export EXP and TSR files successfully!
+actual phase2=2000
+Failed to "Delete all" site-to-site vpn(phase2)  !
+Ping gateway successfully after no items!
+Ping gateway successfully after no items!
+VPN Phase 2 SA's failed!!Actual value:2000   Target value:5000
+Finished phase2 test!
+Start tunnel interface test!
+Target tunnel interface:192
+max_tunnel-interface:192>max_s2sVPN:100,It is unreasonable, please refer to DTS-210843 !! num=max_s2sVPN:100
+Running successfully!
+| FAIL |
+No open connection.
+-----------------------------------------------------------------------------------------------------------------
+CapBed-CapacityCase.3Core Capacity                                                                       | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+=================================================================================================================
+CapBed-CapacityCase                                                                                      | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+=================================================================================================================
+Output:  E:\log\output.xml
+Log:     E:\log\log.html
+Report:  E:\log\report.html
+
+test finished 20190510 11:32:10
